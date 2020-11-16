@@ -19,6 +19,7 @@ const Card = ({ frontmatter, slug }) => {
         <Link to={slug}>
           <h3>{frontmatter.title}</h3>
         </Link>
+        <p>{frontmatter.description}</p>
       </figcaption>
     </figure>
   )
