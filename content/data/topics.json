@@ -1,17 +1,17 @@
 [
   {
-    "name": "Topic 1",
-    "slug": "topic-1",
+    "name": "Eventos",
+    "slug": "eventos",
     "image": "../../static/images/topic1logo.jpg"
   },
   {
-    "name": "Topic 2",
-    "slug": "topic-2",
+    "name": "Coberturas",
+    "slug": "coberturas",
     "image": "../../static/images/topic2logo.jpg"
   },
   {
-    "name": "Topic 3",
-    "slug": "topic-3",
+    "name": "Musica",
+    "slug": "musica",
     "image": "../../static/images/topic3logo.jpg"
   },
   {

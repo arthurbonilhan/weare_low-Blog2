@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
 title: The Next 3 Things To Immediately Do About Buildings
-slug: coberturas
+slug: eventos
 date: 2020-06-14T00:25:17.803Z
 dateModified: 2020-06-14T00:25:17.871Z
 description: this is the first test post
 featuredPost: false
-category: Coberturas
+category: Eventos
 tags:
-  - Coberturas
+  - Eventos
   - Buildings
   - Lights
 featuredImage: /images/buildings.jpg

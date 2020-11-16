@@ -48,9 +48,9 @@ function TagPageTemplate({ pageContext }) {
     return node.frontmatter.tags.includes(tag)
   })
 
-  const tagHeader = `${edgesWithTag.length} post${
+  const tagHeader = `Encotramos um ${edgesWithTag.length} post${
     totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  } sobre "${tag}"`
 
   return (
     <Layout pageType="Tag">
@@ -69,7 +69,7 @@ function TagPageTemplate({ pageContext }) {
               )
             })}
             <Link to="/topics" id="all-topics-link">
-              <span>See all topics</span>
+              <span>Veja todos os topicos</span>
               <FaAngleDoubleRight className="icon-right icon-fix" />
             </Link>
           </div>
