@@ -64,7 +64,7 @@ const TopicPageTemplate = ({ pageContext }) => {
 
   const topicInfo = data.allTopicsJson.edges.filter(({ node }) => {
     return node.slug === topic.toLowerCase().replace(" ", "-")
-  })[0].node
+  })[0]
 
   return (
     <Layout pageType="Topic">

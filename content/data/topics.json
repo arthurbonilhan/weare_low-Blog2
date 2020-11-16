@@ -10,13 +10,13 @@
     "image": "../../static/images/topic2logo.jpg"
   },
   {
-    "name": "Musica",
-    "slug": "musica",
+    "name": "Musicas",
+    "slug": "musicas",
     "image": "../../static/images/topic3logo.jpg"
   },
   {
-    "name": "Topic 4",
-    "slug": "topic-4",
+    "name": "Low Tv",
+    "slug": "low-tv",
     "image": "../../static/images/topic4logo.jpg"
   }
 ]
