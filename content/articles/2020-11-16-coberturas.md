@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Diário de bordo - Carnaju 2020
-slug: Coberturas
+slug: diario-carnaju
 autor: Bonilha
 date: 2020-11-16T22:41:49.654Z
 dateModified: 2020-11-16T22:41:51.820Z
