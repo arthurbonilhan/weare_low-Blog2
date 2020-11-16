@@ -24,13 +24,13 @@ collections:
           widget: "hidden",
           default: "blog-post",
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Date Published", name: "date", widget: "datetime" }
-      - { label: "Date Modified", name: "dateModified", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredPost", widget: "boolean" }
-      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Tema", name: "slug", widget: "string" }
+      - { label: "Data de publicação", name: "date", widget: "datetime" }
+      - { label: "Data modificada", name: "dateModified", widget: "datetime" }
+      - { label: "Descricao", name: "description", widget: "text" }
+      - { label: "Postagem em destaque?", name: "featuredPost", widget: "boolean" }
+      - { label: "Categoria", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Featured Image", name: "featuredImage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image em destaque", name: "featuredImage", widget: image }
+      - { label: "Texto", name: "body", widget: "markdown" }
