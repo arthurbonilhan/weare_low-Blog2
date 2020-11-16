@@ -25,8 +25,7 @@ a {
   color: black;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, 'Roboto', sans-serif;
 }
 
 /* Multi-use Components */
@@ -60,7 +59,7 @@ body {
   top: 0;
   box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.03);
   z-index: 50;
-  background: #fff;
+  background: #FFF952;
 }
 
 #header .container {
@@ -91,7 +90,7 @@ body {
 @media (min-width: 601px) {
   #nav ul li a:hover,
   #site-logo:hover {
-    color: #f7102b;
+    color: #000;
     transition: all 0.4s ease;
   }
 }
@@ -109,7 +108,7 @@ body {
 #search-box form input {
   height: 32px;
   padding: 7px;
-  border: 1px solid rgb(188, 188, 188);
+  border: 1px solid #000;
   border-radius: 4px;
   font-size: 13px;
   margin-left: 16px;
@@ -266,14 +265,14 @@ body {
   line-height: 32px;
   font-weight: 700;
   text-transform: uppercase;
-  border-bottom: 1px solid #e6e6e6;
-  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #FFF952;
+  border-top: 1px solid #FFF952;
   margin-bottom: 30px;
   padding: 0 14px;
   margin-right: 25px;
   margin-bottom: 28px;
-  background: rgb(251, 251, 251);
-  color: rgb(42, 42, 42);
+  background:#FFF952;
+  color: #000;
 }
 .card-styles {
   margin-bottom: 30px;
@@ -287,7 +286,7 @@ body {
 .card-topic {
   font-size: 12px;
   line-height: 17px;
-  color: #8f9698;
+  color: #585b5c;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -329,7 +328,7 @@ body {
 }
 @media (min-width: 601px) {
   .card-styles figcaption h3:hover {
-    color: #f7102b;
+    color: #FFF952;
     transition: all 0.4s ease;
   }
 }
@@ -348,8 +347,8 @@ body {
   }
 }
 .sidebar-header {
-  background: #000;
-  color: #fff;
+  background: #FFF952;
+  color: black;
   font-size: 12px;
   line-height: 34px;
   text-transform: uppercase;
@@ -369,7 +368,7 @@ body {
 .sidebar-emails h2 {
   font-size: 26px;
   line-height: 39px;
-  color: #4d4d4d;
+  color: #000;
   margin-bottom: 22px;
 }
 .sidebar-emails p {
@@ -390,8 +389,8 @@ body {
   border-radius: 2px;
 }
 .sidebar-emails input[type="submit"] {
-  background: #f8d13e;
-  color: #58594c;
+  background: #000;
+  color: #FFF952;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
@@ -404,12 +403,12 @@ body {
 }
 @media (min-width: 601px) {
   .sidebar-emails input[type="submit"]:hover {
-    background: #f6c920;
+    background: #000;
   }
 }
 .sidebar-emails span {
   font-size: 11px;
-  color: #4d4d4d;
+  color: #000;
 }
 
 /* Small Cards Styles (Sidebar) */
@@ -440,15 +439,15 @@ body {
 }
 @media (min-width: 601px) {
   .card-small-styles figcaption h3:hover {
-    color: #f7102b;
+    color: #FFF952;
     transition: all 0.4s ease;
   }
 }
 
 /* Footer Styles */
 footer {
-  background: black;
-  color: white;
+  background: #FFF952;
+  color: black;
   width: 100%;
   min-height: 120px;
   margin-top: 60px;
@@ -480,7 +479,7 @@ footer {
   font-weight: 700;
 }
 .footer-social-text {
-  color: rgba(255, 255, 255, 0.5);
+  color:black;
   font-size: 21px;
 }
 .footer-social-icons {
@@ -494,7 +493,7 @@ footer {
   border-radius: 50%;
   width: 38px;
   height: 38px;
-  background-color: rgb(68, 66, 74);
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -514,8 +513,8 @@ footer {
   #yt-icon:hover {
     background-color: #ff0000;
   }
-  #li-icon:hover {
-    background-color: #0077b5;
+  #in-icon:hover {
+    background-color: #c4085d;
   }
 }
 

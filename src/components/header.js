@@ -60,7 +60,7 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
                 navigate(`/?s=${e.target.query.value.toLowerCase()}`)
               }}
             >
-              <input type="text" id="query" aria-label="Search" />
+              <input type="text" id="query" aria-label="Search" placeholder="Buque por tema..."/>
             </form>
             <IoIosSearch />
           </div>

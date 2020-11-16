@@ -4,6 +4,7 @@ import {
   TiSocialLinkedin,
   TiSocialFacebook,
   TiSocialYoutube,
+  TiSocialInstagram,
 } from "react-icons/ti"
 
 const Footer = () => {
@@ -24,25 +25,25 @@ const Footer = () => {
             </a>
             <a
               target="_blank"
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/channel/UCSfyxPI_IbIqLDH_zBl5Fhg"
               rel="noopener noreferrer"
             >
               <span className="icon-container" id="yt-icon">
                 <TiSocialYoutube className="footer-social-icon" />
               </span>
             </a>
-            {/* <a
-              target="_blank"
-              href="https://www.linkedin.com/"
-              rel="noopener noreferrer"
-            >
-              <span className="icon-container" id="li-icon">
-                <TiSocialLinkedin className="footer-social-icon" />
-              </span>
-            </a> */}
             <a
               target="_blank"
-              href="https://www.facebook.com/"
+              href="https://www.instagram.com/weare_low/"
+              rel="noopener noreferrer"
+            >
+              <span className="icon-container" id="in-icon">
+                <TiSocialInstagram className="footer-social-icon" />
+              </span>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/wearelow"
               rel="noopener noreferrer"
             >
               <span className="icon-container" id="fb-icon">
@@ -51,7 +52,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>© {new Date().getFullYear()} Weare Low</div>
+        <div>© {new Date().getFullYear()} Low</div>
       </div>
     </footer>
   )

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Weare Low`,
+    title: `LOW`,
     description: `Y.O.L.O`,
     author: `@weare_low`,
   },
@@ -56,10 +56,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#fff952`,
         theme_color: `#fff952`,
         display: `minimal-ui`,
-        icon: `static/favicon.ico`,
+        icon: `static/low.png`,
       },
     },
 
