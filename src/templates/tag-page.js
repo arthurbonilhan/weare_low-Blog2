@@ -78,13 +78,14 @@ function TagPageTemplate({ pageContext }) {
             <div className="sidebar-emails">
               <h2>Fique sabendo de tudo via e-mail</h2>
               {/* <p>Subscribe to my list for lots of great reasons</p> */}
-              <form>
+              <form name="contact" method="POST" data-netlify="true">
                 <input type="text" id="email" aria-label="email" />
                 <input
                   type="submit"
                   value="Subscribe"
                   aria-label="subscribe"
                 />{" "}
+                <input type="hidden" name="form-name" value="contact"></input>
               </form>
               <span>Receba promoções, noticias e muito mais...</span>
             </div>

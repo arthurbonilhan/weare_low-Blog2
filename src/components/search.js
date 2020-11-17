@@ -49,13 +49,14 @@ const Search = ({ markdown, query }) => {
             <div className="sidebar-emails">
               {/* <h2>Mailing list here</h2> */}
               <p>Fique sabendo de tudo via e-mail</p>
-              <form>
+              <form name="contact" method="POST" data-netlify="true">
                 <input type="text" id="email" aria-label="email" />
                 <input
                   type="submit"
                   value="Subscribe"
                   aria-label="subscribe"
                 />{" "}
+                <input type="hidden" name="form-name" value="contact"></input>
               </form>
               <span>Receba promoções, noticias e muito mais...</span>
             </div>
