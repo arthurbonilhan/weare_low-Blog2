@@ -8,6 +8,7 @@ import Card from "../components/card"
 import CardSmall from "../components/cardSmall"
 import Featured from "../components/featured"
 import Search from "../components/search"
+import Propagando from '../components/propagando'
 
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
@@ -93,6 +94,7 @@ const IndexPage = props => {
               </form>
               <span>Receba atualizações semanais, podendo cancelar a sua inscrição a qualquer momento</span>
             </div>
+            <Propagando/>
             <h2 className="sidebar-header">Mais populares</h2>
             <div>
               {data.allMarkdownRemark.edges.map(({ node }, index) => {

@@ -1,7 +1,6 @@
 import React from "react"
 import {
   TiSocialTwitter,
-  TiSocialLinkedin,
   TiSocialFacebook,
   TiSocialYoutube,
   TiSocialInstagram,

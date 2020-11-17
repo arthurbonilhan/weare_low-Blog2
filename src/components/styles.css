@@ -356,6 +356,14 @@ body {
   padding: 0 14px;
   font-weight: 700;
 }
+.sidebar-propaganda {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 44px;
+}
+.sidebar-propaganda img{
+  width: 100%;
+}
 .sidebar-emails {
   background: rgb(249, 250, 251);
   padding: 36px;
