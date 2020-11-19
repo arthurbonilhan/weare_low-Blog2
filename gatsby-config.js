@@ -62,6 +62,26 @@ module.exports = {
         icon: `static/low.png`,
       },
     },
+    {
+      resolve: 'gatsby-remark-video',
+      options: {
+        width: 800,
+        height: 'auto',
+        preload: 'auto',
+        muted: true,
+        autoplay: true,
+        playsinline: true,
+        controls: true,
+        loop: true
+      }
+    },
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: `8111862208`,
+        head: true // Optional
+      }
+    },
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

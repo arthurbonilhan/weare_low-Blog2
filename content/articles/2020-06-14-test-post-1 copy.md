@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Teste
+title: Teste Video
 slug: eventos
 date: 2020-06-14T00:25:17.803Z
 dateModified: 2020-06-14T00:25:17.871Z
@@ -13,6 +13,7 @@ tags:
   - Buildings
   - Lights
 featuredImage: /images/buildings.jpg
+# video: /videos/kungs-boma.mp4
 ---
 <!--StartFragment-->
 

@@ -25,7 +25,7 @@ collections:
           default: "blog-post",
         }
       - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Tema", name: "slug", widget: "string" }
+      - { label: "Url", name: "slug", widget: "string" }
       - { label: "Autor", name: "autor", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime" }
       - { label: "Data modificada", name: "dateModified", widget: "datetime" }
