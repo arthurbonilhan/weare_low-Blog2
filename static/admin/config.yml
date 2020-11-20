@@ -33,5 +33,5 @@ collections:
       - { label: "Postagem em destaque?", name: "featuredPost", widget: "boolean" }
       - { label: "Categoria", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Image em destaque", name: "featuredImage", widget: image }
+      - { label: "Image em destaque", name: "featuredImage", widget?: image }
       - { label: "Texto", name: "body", widget: "markdown" }

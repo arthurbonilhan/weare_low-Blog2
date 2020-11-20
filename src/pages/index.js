@@ -81,21 +81,7 @@ const IndexPage = props => {
             })}
           </div>
           <div className="sidebar">
-            <h2 className="sidebar-header">Receba por E-mail</h2>
-            <div className="sidebar-emails">
-              <h2>Saiba tudo em primeira mão</h2>
-              <p>Receba promoções, materias e muito mais</p>
-              <form name="contact" method="POST" data-netlify="true">
-                <input type="text" id="email" aria-label="email" />
-                <input
-                  type="submit"
-                  value="Subscribe"
-                  aria-label="subscribe"
-                />{" "}
-                <input type="hidden" name="form-name" value="contact"></input>
-              </form>
-              <span>Receba atualizações semanais, podendo cancelar a sua inscrição a qualquer momento</span>
-            </div>
+            <h2 className="sidebar-header">Ouça nossa playlist no:</h2>
             <Propaganda/>
             <h2 className="sidebar-header">Mais populares</h2>
             <div>
@@ -110,6 +96,21 @@ const IndexPage = props => {
                   )
                 } else return null
               })}
+            </div>
+            <h2 className="sidebar-header">Receba por E-mail</h2>
+            <div className="sidebar-emails">
+              <h2>Saiba tudo em primeira mão</h2>
+              <p>Receba promoções, materias e muito mais</p>
+              <form name="contact" method="POST" data-netlify="true">
+                <input type="text" id="email" aria-label="email" />
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  aria-label="subscribe"
+                />{" "}
+                <input type="hidden" name="form-name" value="contact"></input>
+              </form>
+              <span>Receba atualizações semanais, podendo cancelar a sua inscrição a qualquer momento</span>
             </div>
           </div>
         </div>
