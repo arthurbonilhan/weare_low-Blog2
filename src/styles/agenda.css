@@ -194,3 +194,46 @@
 .m-eventItem__buttons .more {
   padding: 0px 48px;
 }
+
+@media (max-width: 800px){
+
+  .p-listing, .p-listing__thumb {
+    position: initial;
+    float: initial;
+  }
+  .p-listing__thumb{
+    text-align: center;
+    max-width: initial;
+    opacity: initial;
+  }
+  .p-listing__thumb img {
+    width: 100%;
+  }
+  .m-eventItem__info{
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+    width: initial;
+  }
+  .p-listing__date{
+    letter-spacing: initial;
+  }
+  .p-listing__title{
+    padding: 0;
+    line-height: initial;
+    letter-spacing: initial;
+  }
+  .event-item-meta-data{
+    float: initial;
+    position: initial;
+  }
+  .m-eventItem__buttons{
+    position: initial;
+    top: initial;
+    transform: initial;
+  }
+  .btn-group--stack .btn{
+    float: initial;
+  }
+}
