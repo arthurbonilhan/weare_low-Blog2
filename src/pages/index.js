@@ -10,7 +10,6 @@ import Featured from "../components/featured"
 import Search from "../components/search"
 import Propagando from '../components/propagando'
 
-
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
     {

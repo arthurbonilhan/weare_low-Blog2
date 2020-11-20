@@ -5,10 +5,12 @@ import {
   TiSocialYoutube,
   TiSocialInstagram,
 } from "react-icons/ti"
+import LowTv from '../components/lowTv'
 
 const Footer = () => {
   return (
     <footer id="footer">
+          <LowTv/>
       <div className="container">
         <div className="footer-social">
           <div className="footer-social-text">Fique por dentro</div>
@@ -51,7 +53,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>© {new Date().getFullYear()} Low</div>
+        <div className='footer-contato'>Contato: contato@wearelow.com.br</div>
+        <div>© {new Date().getFullYear()} weare_low</div>
       </div>
     </footer>
   )

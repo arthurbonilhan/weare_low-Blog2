@@ -356,6 +356,28 @@ body {
   padding: 0 14px;
   font-weight: 700;
 }
+.sidebar-lowtv{
+  display: flex;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sidebar-lowtv iframe{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.lowtv{
+  display: block; 
+  background-color: #000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.lowtv h1{
+  color: #fff;
+  font-weight: bold;
+}
+
 .sidebar-propaganda {
   text-align: center;
   margin-top: 28px;
@@ -481,8 +503,8 @@ footer {
   width: 100%;
   border-bottom: 1px solid grey;
 }
-.footer-social {
-  width: 50%;
+.footer-social, .footer-contato {
+  /* width: 50%; */
   font-size: 18px;
   font-weight: 700;
 }
