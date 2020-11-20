@@ -1,0 +1,196 @@
+/* General Styles */
+
+.full {
+  width: 100%;
+}
+
+/* Global List Styles */
+
+.p-listing {
+  position: relative;
+  margin-bottom: 20px;
+  border-top: 2px solid rgb(168, 7, 243);
+  padding-top: 20px;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.p-listing__thumb {
+  display: block;
+  float: left;
+  width: 100%;
+  position: relative;
+  max-width: 230px;
+  opacity: 1;
+}
+.p-listing__thumb :hover {
+  opacity: 0.9;
+}
+.p-listing__thumb img {
+  width: 100%;
+  display: block;
+}
+
+.p-listing__date {
+  color: #676e75;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 24px;
+  font-size: 20px;
+  background: white;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0px;
+  display: block;
+}
+
+.p-listing__title {
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.p-listing__title a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.p-listing__title a:hover {
+  color: #FFF952;
+}
+
+.p-listing__tagline {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #20262b;
+}
+
+.p-listing__address {
+  margin-bottom: 30px;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  line-height: 26px;
+  text-transform: none;
+  color: #20262b;
+  text-decoration: none;
+  font-style: normal;
+}
+.p-listing__description {
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
+.p-listing__meta {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #676e75;
+  text-transform: uppercase;
+}
+
+/* Global Button Styles */
+
+.btn {
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 40px;
+}
+.btn--default {
+  color: #000;
+  background: #FFF952;
+}
+.btn--default:hover {
+  background: #e2db11;
+}
+.btn--alt {
+  color: #FFF952;
+  background: #000;
+}
+.btn--alt:hover {
+  background: #20262b;
+}
+
+.btn-group--stack .btn {
+  float: left;
+  display: block;
+  clear: both;
+}
+.btn-group--stack .btn,
+.btn {
+  margin-top: 5px;
+}
+
+/* Specific List Styles */
+
+.m-eventList .m-eventList__list {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.m-eventItem__info {
+  width: calc(100% - 430px);
+  padding: 20px;
+  position: absolute;
+  left: 230px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.event-item-meta-data {
+  padding-top: 5px;
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  left: 230px;
+  padding: 0px 20px;
+}
+
+/* Specific Button Styles */
+
+.m-eventItem__buttons {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.m-eventItem__buttons .tickets,
+.m-eventItem__buttons .more {
+  margin-top: 10px;
+}
+.m-eventItem__buttons .more {
+  padding: 0px 48px;
+}

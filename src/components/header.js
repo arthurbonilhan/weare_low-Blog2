@@ -50,6 +50,9 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
               </li>
             ))}
             <li>
+              <Link to="/Agenda">Agenda</Link>
+            </li>
+            <li>
               <Link to="/about">Sobre</Link>
             </li>
           </ul>
@@ -83,6 +86,9 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
                 <Link to={`/${node.slug}`}>{node.name}</Link>
               </li>
             ))}
+            <li>
+              <Link to="/Agenda">Agenda</Link>
+            </li>
             <li>
               <Link to="/about">Sobre</Link>
             </li>

@@ -605,7 +605,7 @@ footer {
 }
 @media (min-width: 601px) {
   #all-topics-link:hover {
-    color: #f7102b;
+    color: #FFF952;
     transition: all 0.4s ease;
   }
 }
@@ -625,7 +625,11 @@ footer {
   font-size: 36px;
   margin: 20px 0;
 }
-
+/* AGENDA PAGE STYLES */
+#agenda {
+  min-height: 1000px;
+  margin-top: 100px;
+}
 /* Archive Pagination Styles */
 #archive-link {
   display: flex;
@@ -643,7 +647,7 @@ footer {
 }
 @media (min-width: 601px) {
   #archive-link:hover {
-    color: #f7102b;
+    color: #FFF952;
     transition: all 0.4s ease;
   }
 }
@@ -661,7 +665,7 @@ footer {
 }
 @media (min-width: 601px) {
   .pagination-link:hover {
-    color: #f7102b;
+    color: #FFF952;
     transition: all 0.4s ease;
   }
 }
