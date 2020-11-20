@@ -8,7 +8,8 @@ import Card from "../components/card"
 import CardSmall from "../components/cardSmall"
 import Featured from "../components/featured"
 import Search from "../components/search"
-import Propagando from '../components/propagando'
+import Propaganda from '../components/propaganda'
+import Cupom from '../components/Cupom'
 
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
@@ -59,7 +60,8 @@ const IndexPage = props => {
   } else {
     return (
       <Layout>
-        <SEO title="Home" slug="/" />
+        <SEO title="Weare" slug="/" />
+        <Cupom/>
         <Featured markdown={data.allMarkdownRemark} />
         <div className="flex-layout">
           <div className="cards">
@@ -94,7 +96,7 @@ const IndexPage = props => {
               </form>
               <span>Receba atualizações semanais, podendo cancelar a sua inscrição a qualquer momento</span>
             </div>
-            <Propagando/>
+            <Propaganda/>
             <h2 className="sidebar-header">Mais populares</h2>
             <div>
               {data.allMarkdownRemark.edges.map(({ node }, index) => {

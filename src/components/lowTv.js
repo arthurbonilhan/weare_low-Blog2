@@ -13,6 +13,7 @@ function LowTv() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          title='Ep1'
         ></iframe>
         <iframe
           width="560"
@@ -21,6 +22,7 @@ function LowTv() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          title='Ep2'
         ></iframe>
         <iframe
           width="560"
@@ -29,6 +31,7 @@ function LowTv() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          title='Ep3'
         ></iframe>
       </div>
     </div>
