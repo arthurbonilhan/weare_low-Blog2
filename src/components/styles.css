@@ -495,6 +495,21 @@ footer {
   #footer .container {
     flex-direction: column;
   }
+  .sidebar-lowtv{
+    display: block;
+  }
+  .sidebar-lowtv iframe{
+    width: 401px;
+    height: 200px;
+    margin: 10px 0 10px;
+  }
+  .sidebar-lowtv{
+    padding: 15px 0 15px;
+  }
+  .footer-contato, .footer-social{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 .footer-logo {
   font-size: 24px;
