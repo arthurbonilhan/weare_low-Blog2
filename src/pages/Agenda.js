@@ -23,29 +23,26 @@ const AgendaPage = () => {
                 <div class="m-eventItem__info info clearfix">
                   <div class="m-eventItem__date date p-listing__date">
                     <span class="m-date__rangeFirst">
-                      <span class="m-date__month">November </span>
+                      <span class="m-date__month">De </span>
                       <span class="m-date__day">23</span>
-                      <span class="m-date__year">, 2016</span>
+                      <span class="m-date__year"> a 26</span>
                     </span>
                     <span class="m-date__separator"> - </span>
                     <span class="m-date__rangeLast">
-                      <span class="m-date__month">April </span>
-                      <span class="m-date__day"> 2</span>
-                      <span class="m-date__year">, 2017</span>
+                      <span class="m-date__month">Fevereiro </span>
+                      <span class="m-date__year">2021</span>
                     </span>
                   </div>
                   <h3 class="m-eventItem__title m-eventItem__title-withTagline p-listing__title">
                     <a href="https://www.google.com" title="More Info">
-                      Green Bay Gamblers Hockey
+                      Festival Carnaju
                     </a>
                   </h3>
                   <h4 class="m-eventItem__tagline p-listing__tagline">
-                    2016-2017 Season
+                    Festival carnaju 2021
                   </h4>
                 </div>
-                <div class="event-item-meta-data p-listing__meta">
-                  Resch Center, Green Bay, WI
-                </div>
+                <div class="event-item-meta-data p-listing__meta">Itú - SP</div>
 
                 <div class="m-eventItem__buttons show-list btn-group btn-group--stack">
                   <a
@@ -54,14 +51,14 @@ const AgendaPage = () => {
                     rel="noreferrer"
                     class="tickets onsalenow btn btn--default"
                   >
-                    Buy Tickets
+                    Cupom de desconto
                   </a>
                   <a
                     href="https://www.google.com"
                     class="more m-eventItem__buttons-hide btn btn--alt"
                     title="More Info"
                   >
-                    More Info
+                    Mais informações
                   </a>
                 </div>
               </div>
@@ -77,29 +74,26 @@ const AgendaPage = () => {
                 <div class="m-eventItem__info info clearfix">
                   <div class="m-eventItem__date date p-listing__date">
                     <span class="m-date__rangeFirst">
-                      <span class="m-date__month">November </span>
+                      <span class="m-date__month">De </span>
                       <span class="m-date__day">23</span>
-                      <span class="m-date__year">, 2016</span>
+                      <span class="m-date__year"> a 26</span>
                     </span>
                     <span class="m-date__separator"> - </span>
                     <span class="m-date__rangeLast">
-                      <span class="m-date__month">April </span>
-                      <span class="m-date__day"> 2</span>
-                      <span class="m-date__year">, 2017</span>
+                      <span class="m-date__month">Fevereiro </span>
+                      <span class="m-date__year">2021</span>
                     </span>
                   </div>
                   <h3 class="m-eventItem__title m-eventItem__title-withTagline p-listing__title">
                     <a href="https://www.google.com" title="More Info">
-                      Green Bay Gamblers Hockey
+                      Festival Carnaju
                     </a>
                   </h3>
                   <h4 class="m-eventItem__tagline p-listing__tagline">
-                    2016-2017 Season
+                    Festival carnaju 2021
                   </h4>
                 </div>
-                <div class="event-item-meta-data p-listing__meta">
-                  Resch Center, Green Bay, WI
-                </div>
+                <div class="event-item-meta-data p-listing__meta">Itú - SP</div>
 
                 <div class="m-eventItem__buttons show-list btn-group btn-group--stack">
                   <a
@@ -108,14 +102,14 @@ const AgendaPage = () => {
                     rel="noreferrer"
                     class="tickets onsalenow btn btn--default"
                   >
-                    Buy Tickets
+                    Cupom de desconto
                   </a>
                   <a
                     href="https://www.google.com"
                     class="more m-eventItem__buttons-hide btn btn--alt"
                     title="More Info"
                   >
-                    More Info
+                    Mais informações
                   </a>
                 </div>
               </div>
@@ -131,29 +125,26 @@ const AgendaPage = () => {
                 <div class="m-eventItem__info info clearfix">
                   <div class="m-eventItem__date date p-listing__date">
                     <span class="m-date__rangeFirst">
-                      <span class="m-date__month">November </span>
+                      <span class="m-date__month">De </span>
                       <span class="m-date__day">23</span>
-                      <span class="m-date__year">, 2016</span>
+                      <span class="m-date__year"> a 26</span>
                     </span>
                     <span class="m-date__separator"> - </span>
                     <span class="m-date__rangeLast">
-                      <span class="m-date__month">April </span>
-                      <span class="m-date__day"> 2</span>
-                      <span class="m-date__year">, 2017</span>
+                      <span class="m-date__month">Fevereiro </span>
+                      <span class="m-date__year">2021</span>
                     </span>
                   </div>
                   <h3 class="m-eventItem__title m-eventItem__title-withTagline p-listing__title">
                     <a href="https://www.google.com" title="More Info">
-                      Green Bay Gamblers Hockey
+                      Festival Carnaju
                     </a>
                   </h3>
                   <h4 class="m-eventItem__tagline p-listing__tagline">
-                    2016-2017 Season
+                    Festival carnaju 2021
                   </h4>
                 </div>
-                <div class="event-item-meta-data p-listing__meta">
-                  Resch Center, Green Bay, WI
-                </div>
+                <div class="event-item-meta-data p-listing__meta">Itú - SP</div>
 
                 <div class="m-eventItem__buttons show-list btn-group btn-group--stack">
                   <a
@@ -162,14 +153,14 @@ const AgendaPage = () => {
                     rel="noreferrer"
                     class="tickets onsalenow btn btn--default"
                   >
-                    Buy Tickets
+                    Cupom de desconto
                   </a>
                   <a
                     href="https://www.google.com"
                     class="more m-eventItem__buttons-hide btn btn--alt"
                     title="More Info"
                   >
-                    More Info
+                    Mais informações
                   </a>
                 </div>
               </div>
